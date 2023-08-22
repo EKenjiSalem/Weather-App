@@ -1,0 +1,56 @@
+
+
+ * {  
+   box-sizing: border-box;  
+ }  
+
+ body {  
+   margin: 0;  
+   font-family: 'Noto Sans', sans-serif; 
+   display: flex;  
+   justify-content: center;  
+   align-items: center;  
+   min-height: 100vh;  
+   flex-direction: column;  
+   background: #222;
+   background-image: url('https://source.unsplash.com/random/?city');
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow: hidden;
+ }  
+
+ h1 {
+     color: orangered;
+ }
+
+ input {  
+   padding: 1rem;  
+   border-radius: 25px;  
+   border: none;  
+   background-color: #fff;  
+   font-family: inherit;  
+   box-shadow: 0 4px 10px rgba(0,0,0,0.2);  
+   min-width: 300px;  
+   font-size: 1rem;  
+ }  
+
+ input:focus {  
+   outline: none;  
+   background-color: rgba(255, 68, 0, 0.714);
+   transition: background-color .5s .3s;
+ }  
+
+ .weather {   
+    text-align: center;  
+    font-size: 2rem ;  
+  }  
+
+  .weather h2 {  
+    margin-bottom: 0;  
+    display: flex;  
+    align-items: center;  
+  }  
+  /* .weather img{  
+    transform: scale(2);  
+  } */
+
